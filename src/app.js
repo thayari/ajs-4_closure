@@ -1,3 +1,1 @@
-export default function findBy(key, value) {
-  return item => item[key] == value;
-}
+export default (key, value) => (item) => item[key] === value;
